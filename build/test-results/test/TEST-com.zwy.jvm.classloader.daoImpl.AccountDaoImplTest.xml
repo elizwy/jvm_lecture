@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.zwy.jvm.classloader.daoImpl.AccountDaoImplTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-12-03T13:19:07" hostname="elizwy-pc" time="0.204">
+  <properties/>
+  <testcase name="getAccountList" classname="com.zwy.jvm.classloader.daoImpl.AccountDaoImplTest" time="0.204"/>
+  <system-out><![CDATA[i have get some accounts
+]]></system-out>
+  <system-err><![CDATA[十二月 03, 2019 9:19:07 下午 org.springframework.context.support.AbstractApplicationContext prepareRefresh
+信息: Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@46546250: startup date [Tue Dec 03 21:19:07 CST 2019]; root of context hierarchy
+十二月 03, 2019 9:19:07 下午 org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+信息: Loading XML bean definitions from class path resource [bean.xml]
+]]></system-err>
+</testsuite>
