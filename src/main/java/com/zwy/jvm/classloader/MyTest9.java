@@ -13,6 +13,7 @@ public class MyTest9 {
         String resources="Test9.class";
         URL resource = contextClassLoader.getResource(resources);
         System.out.println(resources);
+
     }
 }
 class Test9{}
