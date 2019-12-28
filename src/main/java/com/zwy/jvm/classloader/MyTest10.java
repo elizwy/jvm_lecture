@@ -29,7 +29,7 @@ public class MyTest10 extends ClassLoader{
         Class<?> aClass = loader1.loadClass("com.zwy.jvm.classloader.MyTest1");
         Object o = aClass.newInstance();
         System.out.println(o);
-        System.out.println();
+        System.out.println(ClassLoader.getSystemClassLoader());
     }
 
     public void setPath(String path){
