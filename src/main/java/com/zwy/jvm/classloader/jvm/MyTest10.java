@@ -1,4 +1,4 @@
-package com.zwy.jvm.classloader;
+package com.zwy.jvm.classloader.jvm;
 
 import java.io.*;
 
@@ -26,7 +26,7 @@ public class MyTest10 extends ClassLoader{
     public static void main(String[] args) throws Exception {
         MyTest10 loader1 = new MyTest10("loader1");
         loader1.setPath("/home/elizwy/Documents/");
-        Class<?> aClass = loader1.loadClass("com.zwy.jvm.classloader.MyTest1");
+        Class<?> aClass = loader1.loadClass("com.zwy.jvm.classloader.jvm.MyTest1");
         Object o = aClass.newInstance();
         System.out.println(o);
         System.out.println(ClassLoader.getSystemClassLoader());

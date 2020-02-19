@@ -1,4 +1,4 @@
-package com.zwy.jvm.classloader;
+package com.zwy.jvm.classloader.jvm;
 
 /**
  * @author zwy
@@ -10,7 +10,7 @@ public class MyTest7 {
         Class<?> clazz = Class.forName("java.lang.String");
         System.out.println(clazz.getClassLoader());
 
-        Class<?> aClass = Class.forName("com.zwy.jvm.classloader.c");
+        Class<?> aClass = Class.forName("com.zwy.jvm.classloader.jvm.c");
         System.out.println(aClass.getClassLoader());
     }
 }

@@ -1,4 +1,4 @@
-package com.zwy.jvm.classloader;
+package com.zwy.jvm.classloader.jvm;
 
 public class Test2 {
     String str = "welcome";
